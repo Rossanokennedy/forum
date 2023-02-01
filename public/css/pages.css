@@ -1,0 +1,110 @@
+/*dashboard page*/
+
+.dashboard_body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard_discussions, .dashboard_responses {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    width: 350px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dashboar_heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+/*profile page*/
+
+.profile_interior {
+    width: 450px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.profile_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.profile_left {
+    font-size: 18px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+/*forum page*/
+
+.forum_create {
+    margin-bottom: 10px;
+}
+
+.forum_interior {
+    height: 450px;
+    margin-bottom: 10px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.forum_spot {
+    margin-top: 5px;
+    padding: 5px;
+    visibility: hidden;
+}
+
+/*view area*/
+
+.view_link {
+    margin-bottom: 10px;
+}
+
+.view_interior {
+    height: 550px;
+    margin-bottom: 10px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.view_discussion_area {
+    margin-top: 5px;
+    padding: 5px;
+    visibility: hidden;
+}
+
+/*discussion page*/
+
+.link_heading a {
+    font-size: 30px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.discussion_interior {
+    height: 550px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.discussion_user {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.discussion_main {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.discussion_info {
+    float: right;
+    font-size: 13px;
+}

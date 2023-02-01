@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+:root {
+    --primary-color: rgba(0, 0, 0, 0.9);
+    --secondary-color: rgba(150, 150, 150, 0.5);
+    --alert: rgb(240, 22, 10);
+    --warning: rgb(199, 188, 20);
+    --success: rgb(44, 223, 30);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(233, 80, 133);
+    text-decoration: none;
+}
+
+.main-heading {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.no-data {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.form-area {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.form-textarea {
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.main-input, .main-textarea {
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    height: 25px;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.main-input:focus, .main-textarea:focus {
+    border: 1px solid var(--secondary-color);
+    transition: 0.1s ease;
+}
+
+.main-input::placeholder, .main-textarea::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.main-input{
+    height: 25px;
+}
+
+.main-textarea {
+    height: 60px;
+}
+
+.main-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.primary-button{
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+}
+
+.primary-button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: var(--secondary-color);
+    transition: 0.2s ease-in;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.form-border {
+    border: 1px solid var(--primary-color);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.main-link, .sm-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.main-link:hover, .sm-link:hover {
+    color: var(--secondary-color);
+    transition: 0.1s ease;
+}
+
+.main-link {
+    font-size: 16px;
+}
+
+.sm-link {
+    font-size: 12px;
+}
+
+.error {
+    padding: 5px;
+    color: var(--alert);
+    position: absolute;
+}
+
+.success {
+    padding: 5px;
+    color: var(--success);
+    position: absolute;
+}
+

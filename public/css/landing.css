@@ -1,0 +1,140 @@
+/* landing page*/
+
+.landing_wrapper {
+    width: 100%;
+    height: 600px;
+}
+
+.landing_header {
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+.landing_singin {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.landing_singin a i {
+    color: white;
+    font-size: 20px;
+}
+
+.landing_signin a i:hover {
+    color: rgba(255, 255, 255, 0.3);
+    transition: 0.2s ease-in; 
+}
+
+.landing_pic {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    background-image: url("/img/landing/ifrn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -9999;
+}
+
+.landing_forum {
+    width: 100%;
+}
+
+.landing_heading{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    height: 30px;
+}
+
+.landing_forum_heading{
+    margin: 0 auto;
+    width: 200px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    height: 30px;
+    background-color: rgba(180, 180, 180, 0.3);
+}
+
+.landing_forum_heading h4{
+    text-align: center;
+    padding: 5px;
+    font-weight: 200px;
+}
+
+.landing_forum_listing {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.landing_forum_show {
+    width: 160px;
+    padding: 5px;
+    background-color: rgba(150, 150, 150, 0.4);
+    height: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.landing_forum_show:hover {
+    background-color: rgba(190, 190, 190, 0.2);
+}
+
+.landing_forum_title a {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Open Sans" Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: var(--primary-color);
+    padding-top: 10px;
+}
+
+/* singup page */
+
+.singup_wrapper{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.singup_wrapper form{
+    width: 770px;
+    padding: 5px;
+}
+
+.singup_buttons{
+    width: 750px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*singin page*/
+
+.singin_wrapper {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.singin_wrapper form {
+    width: 770px;
+    padding: 5px;
+}
+
+.singin_buttons {
+    width: 750px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
